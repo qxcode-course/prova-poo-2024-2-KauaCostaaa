@@ -3,20 +3,6 @@ function input(): string { let X: any = input; X.L = X.L || require("fs").readFi
 function write(text: any, endl="\n") { process.stdout.write("" + text + endl); }
 export {};
 
-class Pessoa{
-    private nome: string;
-    private dinheiro: number;
-
-    constructor(nome: string, dinheiro: number){
-        this.nome = nome
-        this.dinheiro = dinheiro
-    }
-}
-
-class Moto {
-    
-}
-
 class Adapter {
     setDriver(name: string, money: number): void {
     }
